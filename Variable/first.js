@@ -12,4 +12,16 @@ let accountState;
 because var  keyword issues in block scope and function function
     */
 
+/*
+  console result
+
+  ┌─────────┬─────────────────────┐
+│ (index) │       Values        │
+├─────────┼─────────────────────┤
+│    0    │      44777123       │
+│    1    │ 'pratap@google.com' │
+│    2    │     'Varanasi'      │
+│    3    │      undefined      │
+*/
+
     console.table([accountId,accountEmail,accountCity,accountState]); 
